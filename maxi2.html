@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="maxi5.css">
+    <title>Formulario compra</title>
+</head>
+<body>
+    <h1>Factura del concierto Paulo Londra</h1>
+    <h2>Número telefonico</h2>
+    <input type="number" id="telefono">
+    <h2>Nombre y apellido </h2>
+    <input type="text" id="nombre">
+    <h2>DNI</h2>
+    <input type="number" id="dni">
+    <h2>Número de asiento</h2>
+    <input type="number" id="asiento">
+    <h2>Codigo de compra</h2>
+    <input type="number" id="codigo">
+    <h2>Precio de la entrada</h2>
+    <tr>
+        <th>Ubicacion</th>
+        <th>Altura</th>
+        <th>Precio</th>
+        <br>
+        </tr>
+        <select name="" id="precio">
+            <option value="20000$">  
+                <th>Sivori</th>
+                <th>alta/media</th>
+                <th>$20000</th></option>
+            <option value="27000$"> 
+                <th>Belgrano</th>
+                <th>alta/media</th>
+                <th>$27000</th></option>
+                <option value="45000"> 
+                    <th>San Martin</th>
+                    <th>baja</th>
+                    <th>$45000</th></option>
+                <option value="34000$">
+                    <th>Centenario</th>
+                    <th>baja</th>
+                    <th>$34000</th></option>
+                <option value="70000$">
+                    <th>Campo de Juego</th>
+                    <th>----</th>
+                     <th>$70000</th>
+                     </option>
+        </select>
+        <br><br>
+        <button onclick=asd()>subir</button>
+    
+        <h2>FACTURA</h2>
+    
+    <table border="2" id="tablaaidi">
+        <tr>
+            <td> Codigo de compra: </td>
+            <td> Número de asiento: </td>
+            <td> Precio: </td>
+            <td> Nombre del comprador: </td>
+            <td> DNI del comprador: </td> 
+            <td> Telefono</td>
+        </tr>
+        <tr>
+            <td><div id="imprimir2"></div></td> <!--Codigo de compra-->
+            <td><div id="imprimir3"></div></td> <!--Número de asiento-->
+            <td><div id="imprimir"></div></td> <!--Precio-->
+            <td><div id="imprimir1"></div></td> <!--Nombre-->
+            <td><div id="imprimir4"></div></td> <!--DNI-->
+            <td><div id="imprimir5"></div></td> <!--Telefono-->
+        </tr>
+       
+        
+    </table>
+    <!--<tbody id="tbody"></tbody>-->
+    
+   
+</body>
+</html>
+
+<script src="maxi3.js"></script>

@@ -1,0 +1,14 @@
+body {
+    margin: 1%;
+    padding: 1%;
+    background: url(celeste.png);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    text-align: center;
+    
+  }
+#tablaaidi{
+    left: 50%;
+    right: 50%;
+  }

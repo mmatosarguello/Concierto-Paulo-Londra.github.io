@@ -1,0 +1,38 @@
+.parrafo {
+    background-color: aquamarine;
+    border: 5px solid rgb(0, 0, 0);
+    background-color: steelblue;
+    width: 1000px;
+    height: 300px;
+  }
+  
+  
+  body {
+    margin: 1%;
+    padding: 1%;
+    background: url(celeste.png);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+  }
+  
+  h3 {
+    margin: 20px;
+    text-decoration-color: rgb(255, 255, 255);
+  }
+  img{
+    width: 200px;
+    height: auto;
+  
+  
+  
+  
+    
+  }
+  
+  header li {
+    list-style: none;
+    display: inline-block;
+  
+  
+  }
